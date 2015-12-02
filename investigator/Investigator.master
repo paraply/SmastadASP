@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Investigator.master.cs" Inherits="investigator_Investigator" MasterPageFile="~/EnvironmentCrime.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="EnvironmentCrimeMain" Runat="Server">
+      <nav>
+         <ul>
+            <li class="right"><a class="logout" href="../Default.aspx">Logga ut</a></li>
+            <li><a class="reports" href="StartInvestigator.aspx">Start(Ärenden)</a></li>
+         </ul>
+      </nav><!-- End Nav -->
+      <div id="content">
+         <form id="form1" runat="server">
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
+         </form>
+         <footer>
+            &copy; Småstads Kommun All rights reserved.
+         </footer>
+      </div>
+   </asp:Content>

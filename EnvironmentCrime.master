@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="EnvironmentCrime.master.cs" Inherits="manager_EnvironmentCrime" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <meta charset="UTF-8" />
+   <title>Småstads kommun</title>
+   <link rel="stylesheet" href="stylesheet/style.css" />
+</head>
+<body>
+   <div id="wrapper">
+      <div id="logo">
+         <h1>Småstad</h1>
+         <p>Kommunen där vi bryr oss om varandra</p>
+      </div><!-- End Logo -->
+
+         <asp:ContentPlaceHolder ID="EnvironmentCrimeMain" runat="server">
+
+         </asp:ContentPlaceHolder>
+
+   </div><!-- End Wrapper -->
+</body>
+</html>

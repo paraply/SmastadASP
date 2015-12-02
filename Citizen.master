@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Citizen.master.cs" Inherits="Citizen" MasterPageFile="~/EnvironmentCrime.master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="EnvironmentCrimeMain" Runat="Server">
+         <nav>
+            <ul>
+               <li class="right"><a class="login" runat="server" href="~/Login.aspx">Logga in (endast personal)</a></li>
+               <li><a href="~/Default.aspx" runat="server">Hem</a></li>
+               <li><a href="~/citizen/about/Services.aspx" runat="server">Tjänster</a></li>
+               <li><a href="~/citizen/about/Faq.aspx" runat="server">FAQ</a></li>
+               <li><a href="~/citizen/about/Contact.aspx" runat="server">Kontakt</a></li>
+            </ul>
+         </nav><!-- End Nav -->
+
+         <div id="content">
+
+            <form id="form1" runat="server">
+               <asp:ContentPlaceHolder ID="Main" runat="server">
+               </asp:ContentPlaceHolder>
+            </form>
+            <footer>
+               &copy; Småstads Kommun All rights reserved.
+            </footer>
+         </div><!-- End Content -->
+   </asp:Content>
+
